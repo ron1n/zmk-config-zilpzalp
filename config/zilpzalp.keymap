@@ -20,13 +20,13 @@
         compatible = "zmk,keymap";
 
         aptmak {
-            label = "APT";
+            label = "541";
 
             bindings = <
-                               &kp W          &kp F          &kp P          &kp B          &kp J          &kp L          &kp U          &kp Y
-                &hl LCTRL R    &hl LALT S     &hl LGUI T     &hl LSHFT H    &hl RALT K     &hr RALT X     &hr RSHFT N    &hr RGUI A     &hr LALT I     &hr RCTRL O
-                               &kp C          &kp G          &kp D                                        &kp M          &comsem        &dotcol
-                                                             &my_lt NUM SQT &my_lt NAV SPACE &my_lt SYM E &my_lt FUN TAB
+                               &kp W          &kp A          &kp S          &kp D          &kp Q          &kp W          &kp E          &kp R
+                    &kp LSHIFT     &kp TILDE     &kp LEFT    &kp DOWN     &kp UP     &kp RIGHT      &kp ENTER     &kp BACKSPACE
+                               &kp  PERIOD         &kp COMMA                                            &kp PERIOD          &kp COMMA
+                                                             &kp TILDE &kp SPACE &kp F1 &kp F2
             >;
         };
         numbers {
